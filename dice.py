@@ -1,3 +1,4 @@
+import random
 from tkinter import Tk, Label, Button
 
 class DiceRolla:
@@ -5,7 +6,7 @@ class DiceRolla:
         self.master = master
         master.title("Dice Rolla")
 
-        self.label = Label(master, text="Label 1")
+        self.label = Label(master, text="")
         self.label.pack()
 
         self.rollDice_button = Button(master, text="Roll", command=self.roll)
@@ -15,7 +16,8 @@ class DiceRolla:
         self.close_button.pack()
 
     def roll(self):
-        print("ROLL!")
+        self.value = random.randint(1, 6)
+        self.label.configure(text=str(self.value))
 
 root = Tk()
 app = DiceRolla(root)
