@@ -20,3 +20,10 @@ A good project for beginners, this project will help establish a solid foundatio
 
 ## Thoughts
 I actually did a GUI using Tkinter, so I didn't need to use the `while` loop or ask the user if they want to roll again.
+
+![DiceRolla gif](res/DiceRolla.gif)
+
+## Links
+- Dice Rolling Simulator from [Five mini programming projects for the Python beginner](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
+- [Converting integer to string in Python](https://stackoverflow.com/questions/961632/converting-integer-to-string-in-python)
+- [Introduction to GUI programming with tkinter](http://python-textbok.readthedocs.io/en/1.0/Introduction_to_GUI_Programming.html)
